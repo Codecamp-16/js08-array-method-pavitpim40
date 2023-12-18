@@ -35,16 +35,16 @@ function calNetPrice(price, discountRate = 0) {
   return totalPrice;
 }
 
-const sales = [
-	{ price: 1000, discount: 0.1 }, 
-	{ price: 500, discount: 0.05 }, 
-	{ price: 100 }
-];
+const sales = [{ price: 1000, discount: 0.1 }, { price: 500, discount: 0.05 }, { price: 100 }];
 
 function calNetPriceOfCart(array) {
   let summarizeArray = [];
   for (let obj of array) {
-    let netPrice = calNetPrice(obj.price, obj.discount);
+    // let netPrice = calNetPrice(obj.price, obj.discount);
+    let netPrice = 0;
+    if (obj.discount) netPrice = obj.price * (1 - obj.discount);
+    else netPrice = obj.price;
+
     summarizeArray.push({ netPrice: netPrice });
   }
   return summarizeArray;
