@@ -88,3 +88,51 @@ function square(n, showResult) {
 }
 
 // square(5, print);
+
+/* 
+REVIEW
+*/
+// Ex1
+// function developer (t,tNo) {
+//   console.log(`I'm dev....${t}, ${tNo}`)
+// }
+
+// // Higher Order function
+// function company (dev) {
+//   let task = "payment feature"
+//   let taskNo = "task no.1"
+
+//       dev(task,taskNo)
+// }
+
+// company(developer)
+
+// Ex2
+
+// function developer (t,tNo) {
+//   console.log(`I'm dev....${t}, task no. ${tNo}`)
+// }
+
+// // Higher Order function
+// function company (dev) {
+//   let taskList = ["payment", "login", "geoTracking", "userProfile"]
+
+//   for(let i = 0; i < taskList.length; i++) {
+//       dev(taskList[i],i+1)
+//   }
+
+// }
+
+// company(developer)
+
+// Ex3
+
+let taskList = ['payment', 'login', 'geoTracking', 'userProfile'];
+
+// Focus : Logic ที่จัดการกับแต่ละ element (Iterate function)
+function developer(t, tNo, allTask) {
+  console.log(`I'm dev....${t}, task no. ${tNo}`, allTask);
+}
+
+// taskList.company(dev)
+taskList.forEach(developer);
