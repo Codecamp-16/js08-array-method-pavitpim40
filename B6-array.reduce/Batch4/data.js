@@ -15,12 +15,12 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '01-01-2021',
     customer: 'Sun',
     discount: 0.2,
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 2,
@@ -28,11 +28,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '01-01-2021',
     customer: 'Tle',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 3,
@@ -40,11 +40,11 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 36900
+      unitPrice: 36900,
     },
     saleDate: '01-01-2021',
     customer: 'Beer',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 4,
@@ -52,12 +52,12 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '01-01-2021',
     customer: 'Jit',
     discount: 0.2,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 5,
@@ -65,11 +65,11 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 36900
+      unitPrice: 36900,
     },
     saleDate: '01-01-2021',
     customer: 'Palm',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 6,
@@ -77,11 +77,11 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '01-01-2021',
     customer: 'Top',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 7,
@@ -89,11 +89,11 @@ const sales = [
       id: 4,
       name: 'Oppo',
       model: 'A15',
-      unitPrice: 4299
+      unitPrice: 4299,
     },
     saleDate: '02-01-2021',
     customer: 'Sun',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 8,
@@ -101,12 +101,12 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '02-01-2021',
     customer: 'Snap',
     discount: 0.1,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 9,
@@ -114,12 +114,12 @@ const sales = [
       id: 5,
       name: 'iPhone',
       model: '11 Pro',
-      unitPrice: 36900
+      unitPrice: 36900,
     },
     saleDate: '02-01-2021',
     customer: 'Ham',
     discount: 0.25,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 10,
@@ -127,12 +127,12 @@ const sales = [
       id: 6,
       name: 'Samsung',
       model: 'A31',
-      unitPrice: 7999
+      unitPrice: 7999,
     },
     saleDate: '02-01-2021',
     customer: 'Ham',
     discount: 0.25,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 11,
@@ -140,12 +140,12 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '02-01-2021',
     customer: 'Tle',
     discount: 0.3,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 12,
@@ -153,11 +153,11 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '02-01-2021',
     customer: 'Micky',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 13,
@@ -165,11 +165,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '02-01-2021',
     customer: 'Boss',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 14,
@@ -177,11 +177,11 @@ const sales = [
       id: 7,
       name: 'Oppo',
       model: 'Reno5',
-      unitPrice: 19990
+      unitPrice: 19990,
     },
     saleDate: '02-01-2021',
     customer: 'Sila',
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 15,
@@ -189,11 +189,11 @@ const sales = [
       id: 8,
       name: 'Xiaomi',
       model: 'Redmi 9C',
-      unitPrice: 3399
+      unitPrice: 3399,
     },
     saleDate: '02-01-2021',
     customer: 'Top',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 16,
@@ -201,11 +201,11 @@ const sales = [
       id: 9,
       name: 'Samsung',
       model: 'A42',
-      unitPrice: 11990
+      unitPrice: 11990,
     },
     saleDate: '03-01-2021',
     customer: 'Cin',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 17,
@@ -213,11 +213,11 @@ const sales = [
       id: 6,
       name: 'Samsung',
       model: 'A31',
-      unitPrice: 7999
+      unitPrice: 7999,
     },
     saleDate: '03-01-2021',
     customer: 'Cin',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 18,
@@ -225,12 +225,12 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 36900
+      unitPrice: 36900,
     },
     saleDate: '03-01-2021',
     customer: 'Sine',
     discount: 0.3,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 19,
@@ -238,11 +238,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '03-01-2021',
     customer: 'Note',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 20,
@@ -250,11 +250,11 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '03-01-2021',
     customer: 'Micky',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 21,
@@ -262,11 +262,11 @@ const sales = [
       id: 10,
       name: 'Vivo',
       model: 'V20 Pro',
-      unitPrice: 14999
+      unitPrice: 14999,
     },
     saleDate: '04-01-2021',
     customer: 'Bank',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 22,
@@ -274,11 +274,11 @@ const sales = [
       id: 10,
       name: 'Vivo',
       model: 'V20 Pro',
-      unitPrice: 14999
+      unitPrice: 14999,
     },
     saleDate: '04-01-2021',
     customer: 'Bank',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 23,
@@ -286,11 +286,11 @@ const sales = [
       id: 7,
       name: 'Oppo',
       model: 'Reno5',
-      unitPrice: 19990
+      unitPrice: 19990,
     },
     saleDate: '04-01-2021',
     customer: 'Leo',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 24,
@@ -298,11 +298,11 @@ const sales = [
       id: 9,
       name: 'Samsung',
       model: 'A42',
-      unitPrice: 11990
+      unitPrice: 11990,
     },
     saleDate: '04-01-2021',
     customer: 'Game',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 25,
@@ -310,12 +310,12 @@ const sales = [
       id: 6,
       name: 'Samsung',
       model: 'A31',
-      unitPrice: 7999
+      unitPrice: 7999,
     },
     saleDate: '04-01-2021',
     customer: 'U',
     discount: 0.3,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 26,
@@ -323,11 +323,11 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '05-01-2021',
     customer: 'Boy',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 27,
@@ -335,11 +335,11 @@ const sales = [
       id: 11,
       name: 'Vivo',
       model: 'X50 Pro',
-      unitPrice: 19999
+      unitPrice: 19999,
     },
     saleDate: '05-01-2021',
     customer: 'Boom',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 28,
@@ -347,11 +347,11 @@ const sales = [
       id: 12,
       name: 'Vivo',
       model: 'V20',
-      unitPrice: 10999
+      unitPrice: 10999,
     },
     saleDate: '05-01-2021',
     customer: 'Boom',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 29,
@@ -359,11 +359,11 @@ const sales = [
       id: 9,
       name: 'Samsung',
       model: 'A42',
-      unitPrice: 11990
+      unitPrice: 11990,
     },
     saleDate: '05-01-2021',
     customer: 'Am',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 30,
@@ -371,11 +371,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '06-01-2021',
     customer: 'Um',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 31,
@@ -383,12 +383,12 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '06-01-2021',
     customer: 'Win',
     discount: 0.25,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 32,
@@ -396,11 +396,11 @@ const sales = [
       id: 7,
       name: 'Oppo',
       model: 'Reno5',
-      unitPrice: 19990
+      unitPrice: 19990,
     },
     saleDate: '06-01-2021',
     customer: 'Cin',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 33,
@@ -408,12 +408,12 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '07-01-2021',
     customer: 'Palm',
     discount: 0.1,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 34,
@@ -421,12 +421,12 @@ const sales = [
       id: 5,
       name: 'iPhone',
       model: '11 Pro',
-      unitPrice: 36900
+      unitPrice: 36900,
     },
     saleDate: '07-01-2021',
     customer: 'Dom',
     discount: 0.15,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 35,
@@ -434,11 +434,11 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '07-01-2021',
     customer: 'Sern',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 36,
@@ -446,11 +446,11 @@ const sales = [
       id: 13,
       name: 'iPhone',
       model: 'SE2000',
-      unitPrice: 14900
+      unitPrice: 14900,
     },
     saleDate: '07-01-2021',
     customer: 'Beer',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 37,
@@ -458,12 +458,12 @@ const sales = [
       id: 14,
       name: 'iPhone',
       model: '12 Mini',
-      unitPrice: 25900
+      unitPrice: 25900,
     },
     saleDate: '07-01-2021',
     customer: 'Game',
     discount: 0.2,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 38,
@@ -471,12 +471,12 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '07-01-2021',
     customer: 'Sun',
     discount: 0.25,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 39,
@@ -484,11 +484,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '07-01-2021',
     customer: 'Tom',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 40,
@@ -496,11 +496,11 @@ const sales = [
       id: 14,
       name: 'iPhone',
       model: '12 Mini',
-      unitPrice: 25900
+      unitPrice: 25900,
     },
     saleDate: '08-01-2021',
     customer: 'Ham',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 41,
@@ -508,11 +508,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '08-01-2021',
     customer: 'Dom',
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 42,
@@ -520,11 +520,11 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '08-01-2021',
     customer: 'Cin',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 43,
@@ -532,11 +532,11 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '08-01-2021',
     customer: 'Tle',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 44,
@@ -544,11 +544,11 @@ const sales = [
       id: 7,
       name: 'Oppo',
       model: 'Reno5',
-      unitPrice: 19990
+      unitPrice: 19990,
     },
     saleDate: '09-01-2021',
     customer: 'U',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 45,
@@ -556,12 +556,12 @@ const sales = [
       id: 11,
       name: 'Vivo',
       model: 'X50 Pro',
-      unitPrice: 19999
+      unitPrice: 19999,
     },
     saleDate: '09-01-2021',
     customer: 'Am',
     discount: 0.35,
-    type: 'Airpay'
+    type: 'Airpay',
   },
   {
     id: 46,
@@ -569,11 +569,11 @@ const sales = [
       id: 10,
       name: 'Vivo',
       model: 'V20 Pro',
-      unitPrice: 14999
+      unitPrice: 14999,
     },
     saleDate: '10-01-2021',
     customer: 'Sern',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 47,
@@ -581,12 +581,12 @@ const sales = [
       id: 1,
       name: 'iPhone',
       model: '12 Pro',
-      unitPrice: 48900
+      unitPrice: 48900,
     },
     saleDate: '10-01-2021',
     customer: 'Game',
     discount: 0.3,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 48,
@@ -594,11 +594,11 @@ const sales = [
       id: 9,
       name: 'Samsung',
       model: 'A42',
-      unitPrice: 11990
+      unitPrice: 11990,
     },
     saleDate: '10-01-2021',
     customer: 'Jit',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 49,
@@ -606,11 +606,11 @@ const sales = [
       id: 14,
       name: 'iPhone',
       model: '12 Mini',
-      unitPrice: 25900
+      unitPrice: 25900,
     },
     saleDate: '10-01-2021',
     customer: 'Snap',
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 50,
@@ -618,11 +618,11 @@ const sales = [
       id: 2,
       name: 'iPhone',
       model: '12',
-      unitPrice: 32900
+      unitPrice: 32900,
     },
     saleDate: '10-01-2021',
     customer: 'Micky',
-    type: 'Cash'
+    type: 'Cash',
   },
   {
     id: 51,
@@ -630,12 +630,12 @@ const sales = [
       id: 3,
       name: 'Samsung',
       model: 'S21',
-      unitPrice: 27900
+      unitPrice: 27900,
     },
     saleDate: '11-01-2021',
     customer: 'Boss',
     discount: 0.2,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 52,
@@ -643,12 +643,12 @@ const sales = [
       id: 8,
       name: 'Xiaomi',
       model: 'Redmi 9C',
-      unitPrice: 3399
+      unitPrice: 3399,
     },
     saleDate: '11-01-2021',
     customer: 'Leo',
     discount: 0.05,
-    type: 'Credit'
+    type: 'Credit',
   },
   {
     id: 53,
@@ -656,12 +656,12 @@ const sales = [
       id: 10,
       name: 'Vivo',
       model: 'V20 Pro',
-      unitPrice: 14999
+      unitPrice: 14999,
     },
     saleDate: '11-01-2021',
     customer: 'Sine',
     discount: 0.15,
-    type: 'True Wallet'
+    type: 'True Wallet',
   },
   {
     id: 54,
@@ -669,11 +669,13 @@ const sales = [
       id: 14,
       name: 'iPhone',
       model: '12 Mini',
-      unitPrice: 25900
+      unitPrice: 25900,
     },
     saleDate: '07-01-2021',
     customer: 'Um',
     discount: 0.1,
-    type: 'Cash'
-  }
+    type: 'Cash',
+  },
 ];
+
+// [{id:5:name:"Iphone": sell : 5}]
